@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b97889ea-6cc0-41ed-a703-d9c79eacf4ba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/rapplogic/xbee/util/InputStreamWrapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/rapplogic/xbee/util/InputStreamWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/rapplogic/xbee/util/IIntArrayInputStream.java" afterPath="$PROJECT_DIR$/src/main/java/com/rapplogic/xbee/util/IIntArrayInputStream.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/rapplogic/xbee/util/IntArrayInputStream.java" afterPath="$PROJECT_DIR$/src/main/java/com/rapplogic/xbee/util/IntArrayInputStream.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/rapplogic/xbee/api/PacketParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/rapplogic/xbee/api/PacketParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="xbee-api.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="b97889ea-6cc0-41ed-a703-d9c79eacf4ba" time="1391283538345" ignored="false" />
     <file path="/Dummy.txt" changelist="b97889ea-6cc0-41ed-a703-d9c79eacf4ba" time="1391285066147" ignored="false" />
+    <file path="/IIntArrayInputStream.java" changelist="b97889ea-6cc0-41ed-a703-d9c79eacf4ba" time="1391285349088" ignored="false" />
+    <file path="/IntArrayInputStream.java" changelist="b97889ea-6cc0-41ed-a703-d9c79eacf4ba" time="1391285342798" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,10 +90,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IIntArray.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="IIntArray.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/rapplogic/xbee/util/IIntArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="17" selection-start="798" selection-end="798" vertical-scroll-proportion="0.09118541">
+            <state line="21" column="17" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntArrayInputStream.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/rapplogic/xbee/util/IntArrayInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="13" selection-start="1554" selection-end="1554" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IIntArrayInputStream.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/rapplogic/xbee/util/IIntArrayInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="45" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.22796352">
               <folding />
             </state>
           </provider>
@@ -120,6 +137,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/rapplogic/xbee/util/InputStreamWrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rapplogic/xbee/util/IntArrayInputStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rapplogic/xbee/util/IIntArrayInputStream.java" />
       </list>
     </option>
   </component>
@@ -513,7 +532,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rapplogic/xbee/util/IIntArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="17" selection-start="798" selection-end="798" vertical-scroll-proportion="0.09118541">
+        <state line="21" column="17" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rapplogic/xbee/util/IntArrayInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="13" selection-start="1554" selection-end="1554" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rapplogic/xbee/util/IIntArrayInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="45" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.22796352">
           <folding />
         </state>
       </provider>

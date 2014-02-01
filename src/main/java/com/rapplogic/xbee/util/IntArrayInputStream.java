@@ -60,7 +60,7 @@ public class IntArrayInputStream implements IIntArrayInputStream {
 		return read();
 	}
 
-	@Override
+    @Override
 	public int available() throws IOException {
 		return source.length - pos;
 	}
