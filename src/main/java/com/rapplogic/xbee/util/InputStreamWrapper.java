@@ -28,4 +28,8 @@ public class InputStreamWrapper implements IIntArrayInputStream {
 	public int read(String s) throws IOException {
 		return in.read();
 	}
+	
+	public int available() throws IOException {
+		return in.available();
+	}
 }

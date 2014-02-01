@@ -500,11 +500,24 @@ public class PacketParser implements IIntArrayInputStream {
 		
 		log.debug("There are " + value.length + " remaining bytes");
 		
+		long start = System.currentTimeMillis();
+		while(available() < value.length){
+			Thread.yield();
+			if(System.currentTimeMillis() - start > 100*value.length){
+				throw new XBeeParseException("Timeout while reading packet!");
+			}
+		}
+		
 		for (int i = 0; i < value.length; i++) {
 			value[i] = this.read("Remaining bytes " + i);
 		}
 		
 		return value;
+	}
+	
+	@Override
+	public int available() throws IOException {
+		return in.available();
 	}
 	
 	public XBeeAddress64 parseAddress64() throws IOException {

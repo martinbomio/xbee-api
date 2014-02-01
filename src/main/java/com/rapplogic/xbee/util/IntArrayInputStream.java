@@ -19,6 +19,8 @@
 
 package com.rapplogic.xbee.util;
 
+import java.io.IOException;
+
 /**
  *  //TODO replace with nio.IntBuffer
  */
@@ -56,5 +58,10 @@ public class IntArrayInputStream implements IIntArrayInputStream {
 	
 	public int read(String s) {
 		return read();
+	}
+
+	@Override
+	public int available() throws IOException {
+		return source.length - pos;
 	}
 }
